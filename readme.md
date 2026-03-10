@@ -13,16 +13,20 @@ See related repo: <https://github.com/ronzinante/insertfinity>
 
 ## Iterations history
 
-### Mk2
+### Mk2 (latest)
 
 Video: <https://www.youtube.com/@iwantcolorsback>
 
 Code: [mk2](mk/mk2/)
 
+![mk2-overview](img/mk2-overview.jpeg)
+*Overview*
 ![mk2-map](img/mk2-map.jpeg)
 *Map*
 ![mk2-selection](img/mk2-selection.jpeg)
 *Selection mode activated*
+![mk2-internal](img/mk2-internal.jpeg)
+*Internal*
 
 Design wins and features:
 
@@ -40,6 +44,7 @@ Design fails:
 - Almost no storage for additional song. Only Raspberry Pi Pico was used for storage.
 - No access to BOOTSEL button.
 - Requires USB connection for power
+- OLED display animation stops during audio reproduction (only 1 core used).
 
 #### Bill of materials Mk2
 
@@ -52,9 +57,15 @@ Design fails:
 | - | Illuminated pushbutton PB26-13M | 1 | Honyone |
 | - | Oled 0,96" I2C | 1 | - |
 | - | T1 3/4 LED clear red | 1 | - |
+| - | 1.75mm transparent PLA filament | 1 | - |
 | - | Straw | 1 | - |
 
-### Mk1
+*NOTE* The illuminated pushbutton was CNC-machined to house a 5 mm LED. See below:
+
+![mk2-cnc](img/mk2-cnc.jpeg)
+*CNC machining*
+
+### Mk1 (archived)
 
 Video: <https://www.youtube.com/@iwantcolorsback>
 
@@ -64,7 +75,7 @@ Code: [mk1](mk/mk1/)
 *External*
 
 ![mk1-internal](img/mk1-internal.jpeg)
-*Internals*
+*Internal*
 
 ![mk1-exciter](img/mk1-exciter.jpeg)
 *Exciter and foam panel*
@@ -89,4 +100,5 @@ Design fails:
 | - | DAEX13CT-4 Coin Type 13mm Exciter 3W 4 Ohm | 1 | Dayton Audio |
 | - | Illuminated pushbutton PB26-13M | 1 | Honyone |
 | - | T1 3/4 LED clear red | 1 | - |
+| - | 1.75mm transparent PLA filament | 1 | - |
 | - | Straw | 1 | - |
